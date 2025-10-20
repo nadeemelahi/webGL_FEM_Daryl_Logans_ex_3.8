@@ -1,0 +1,24 @@
+/* 
+ * author : Nadeem Elahi
+ * paid professional email: nad@3deem.com
+ * free social media email: nadeem.elahi@gmail.com
+ * tel : 905-481-1294
+ * COPYRIGHT Sep 2025
+ */
+
+"use strict";
+
+class EquilateralPyramidDrawA01 extends EquilateralPyramid {
+	constructor ( ) {
+		super ( ) ; 
+
+		this.stepx = 0 ;
+		this.stepy = 1 ;
+		this.stepz = 0 ;
+
+		this.colour = [ 1.0 , 1.0 , 0.0 , 1 ] ;
+		this.loc = [ -0.5 , -1.7 , 0.0 ] ;
+	}
+}
+
+
